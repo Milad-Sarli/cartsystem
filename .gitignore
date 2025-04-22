@@ -1,0 +1,15 @@
+/vendor/
+/node_modules/
+.phpunit.result.cache
+composer.lock
+.env
+.env.backup
+.phpunit.cache
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+_ide_helper.php
+.php_cs.cache
+.DS_Store
+Thumbs.db
