@@ -41,6 +41,11 @@ class CartServiceProvider extends ServiceProvider
             __DIR__.'/Http/Controllers' => app_path('Http/Controllers/Cart'),
         ], 'cart-controllers');
 
+        // Publish routes
+        $this->publishes([
+            __DIR__.'/../routes' => base_path('routes/cart'),
+        ], 'cart-routes');
+
         // Load routes
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
