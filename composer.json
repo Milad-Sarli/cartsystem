@@ -1,13 +1,13 @@
 {
     "name": "miladsarli/cartsystem",
     "description": "یک سیستم سبد خرید انعطاف پذیر برای اپلیکیشن های لاراول",
+    "version": "1.0.2",
     "type": "library",
-    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
             "name": "Milad Sarli",
-            "email": "info@miladsarli.com"
+            "email": "miladsarli4444@gmail.com"
         }
     ],
     "require": {
